@@ -1,5 +1,5 @@
 // Import stxlesheets
-const lib = require('./library/display');
+const lib = require('../library/display');
 
 let canvas = lib.makeCanvas(250, 250);
 lib.stage.width = canvas.width;
